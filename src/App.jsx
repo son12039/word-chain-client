@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  return <>안녕</>;
+  return <>안12312녕</>;
 }
 
 export default App;
