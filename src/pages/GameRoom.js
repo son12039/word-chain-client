@@ -84,6 +84,7 @@ const GameRoom = () => {
                   </div>
                 ))}
             </div>
+            <div>{wordDesc[0]}</div>
             {wordList.map((item, index) => (
               <div key={index}>
                 {item.nickname} : {item.word}
