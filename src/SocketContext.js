@@ -8,7 +8,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = ({ children }) => {
-  const serverURL = "http://localhost:3001";
+  const serverURL = "https://word-chain-server-production.up.railway.app/";
   const [socket, setSocket] = useState(null);
   const [userList, setUserList] = useState([]);
 
