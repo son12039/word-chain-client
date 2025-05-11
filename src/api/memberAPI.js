@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:3001/member",
+  baseURL: "https://word-chain-server-production.up.railway.app/member/",
 });
 
 export const user = async (data) => {
