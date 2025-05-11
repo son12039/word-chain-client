@@ -6,9 +6,9 @@ const Modal = async () => {
     title: "로그인 혹은 회원가입",
     html: `
       <input id="swal-input-id" class="swal2-input custom-input" placeholder="ID(6~12자 영문자,숫자)"
-      value = "qweqwe123" autocomplete="off">
+      value = "" autocomplete="off">
       <input type="password" id="swal-input-password" 
-      value = "qweqwe123"
+      value = ""
       class="swal2-input custom-input" placeholder="PWD(8~14자 영문자,숫자)" autocomplete="off">
       <input type="text" id="swal-input-nickname" class="swal2-input custom-input" placeholder="닉네임(한글2~4자 회원가입 시에만)" autocomplete="off">
     `,
