@@ -112,13 +112,16 @@ const WaitingRoom = () => {
       />
       <button onClick={msgSubmit}>발송</button>
       <button onClick={start}>시작하기</button>
-      {talkList.map((msg, index) => {
-        return (
-          <div key={index}>
-            {msg.nickname} : {msg.talk}
-          </div>
-        );
-      })}
+      <div>채팅로그</div>
+      <div style={{ border: "1px solid black" }}>
+        {talkList.map((msg, index) => {
+          return (
+            <div key={index}>
+              {msg.nickname} : {msg.talk}
+            </div>
+          );
+        })}{" "}
+      </div>
     </>
   );
 };
